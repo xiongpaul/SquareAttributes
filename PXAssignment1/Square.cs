@@ -9,6 +9,8 @@ namespace PXAssignment1
     public class Square
     {
         private int side;
+        private int area;
+        private int perimeter;
 
         //default constructor
         public Square()
@@ -32,21 +34,22 @@ namespace PXAssignment1
         public int ChangeSide(int side)
         {
             this.side = side;
-            return side;
+            return this.side;
+
         }
 
         //method to get perimeter
         public int GetPerimeter()
         {
-            int perimeter = side * 4;
-            return perimeter;
+            return perimeter = side * 4;
+            
         }
 
         //method to get area of square
         public int GetArea()
         {
-            int area = side ^ 2;
-            return area;
+            return area = side * side;
+            
         }
 
     }
