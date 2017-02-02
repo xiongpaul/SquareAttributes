@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\VisualStudioProjects\PXAssignment1\PXAssignment1.Tests\bin\Debug\PXAssignment1.Tests.dll" total="4" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2017-01-31" time="06:00:07">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8745" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="DESKTOP-NLEJDDG" user="Paul" user-domain="DESKTOP-NLEJDDG" />
+  <culture-info current-culture="en-CA" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="D:\VisualStudioProjects\PXAssignment1\PXAssignment1.Tests\bin\Debug\PXAssignment1.Tests.dll" executed="True" result="Failure" success="False" time="0.041" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="PXAssignment1" executed="True" result="Failure" success="False" time="0.036" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Failure" success="False" time="0.035" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="SquareTest" executed="True" result="Failure" success="False" time="0.035" asserts="0">
+                <results>
+                  <test-case name="PXAssignment1.Tests.SquareTest.ChangeSideMethod_Given42_ResultIs42" executed="True" result="Success" success="True" time="0.019" asserts="1" />
+                  <test-case name="PXAssignment1.Tests.SquareTest.GetAreaMethod_Given12_ResultIs144" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="PXAssignment1.Tests.SquareTest.GetPerimeterMethod_Given22_ResultIs88" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="PXAssignment1.Tests.SquareTest.GetSideMethod_Given8_ResultIs8" executed="True" result="Failure" success="False" time="0.006" asserts="1">
+                    <failure>
+                      <message><![CDATA[  Expected: 8
+  But was:  1
+]]></message>
+                      <stack-trace><![CDATA[at PXAssignment1.Tests.SquareTest.GetSideMethod_Given8_ResultIs8() in D:\VIsualStudioProjects\PXAssignment1\PXAssignment1.Tests\SquareTest.cs:line 46
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

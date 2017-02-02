@@ -5,9 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace PXAssignment1
-{    
+{
     public class Square
     {
+        //declare object fields
         private int side;
         private int area;
         private int perimeter;
@@ -15,7 +16,7 @@ namespace PXAssignment1
         //default constructor
         public Square()
         {
-            
+            this.side = 1;
         }
 
         //non-default constructor
@@ -33,24 +34,19 @@ namespace PXAssignment1
         //method to change the side value
         public int ChangeSide(int side)
         {
-            this.side = side;
-            return this.side;
-
+            return this.side = side;
         }
 
         //method to get perimeter
         public int GetPerimeter()
         {
-            return perimeter = side * 4;
-            
+            return perimeter = side * 4;            
         }
 
         //method to get area of square
         public int GetArea()
         {
             return area = side * side;
-            
         }
-
     }
 }

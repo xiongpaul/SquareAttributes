@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1005]D:\VisualStudioProjects\PXAssignment1\PXAssignment1.Tests\bin\Debug\PXAssignment1.Tests.dll</TopNode>
+  <SelectedNode>[0-1001]PXAssignment1.Tests.SquareTest.GetSideMethod_Given8_ResultIs8</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1005]D:\VisualStudioProjects\PXAssignment1\PXAssignment1.Tests\bin\Debug\PXAssignment1.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1006]PXAssignment1" Expanded="true" />
+    <Node UniqueName="[0-1007]PXAssignment1.Tests" Expanded="true" />
+    <Node UniqueName="[0-1000]PXAssignment1.Tests.SquareTest" Expanded="true" />
+  </Nodes>
+</VisualState>

@@ -1,0 +1,9 @@
+D:\VIsualStudioProjects\PXAssignment1\PXAssignment1.Tests\bin\Debug\PXAssignment1.Tests.dll
+D:\VIsualStudioProjects\PXAssignment1\PXAssignment1.Tests\bin\Debug\PXAssignment1.Tests.pdb
+D:\VIsualStudioProjects\PXAssignment1\PXAssignment1.Tests\bin\Debug\nunit.framework.dll
+D:\VIsualStudioProjects\PXAssignment1\PXAssignment1.Tests\bin\Debug\PXAssignment1.exe
+D:\VIsualStudioProjects\PXAssignment1\PXAssignment1.Tests\bin\Debug\PXAssignment1.pdb
+D:\VIsualStudioProjects\PXAssignment1\PXAssignment1.Tests\bin\Debug\nunit.framework.xml
+D:\VIsualStudioProjects\PXAssignment1\PXAssignment1.Tests\obj\Debug\PXAssignment1.Tests.csprojResolveAssemblyReference.cache
+D:\VIsualStudioProjects\PXAssignment1\PXAssignment1.Tests\obj\Debug\PXAssignment1.Tests.dll
+D:\VIsualStudioProjects\PXAssignment1\PXAssignment1.Tests\obj\Debug\PXAssignment1.Tests.pdb
