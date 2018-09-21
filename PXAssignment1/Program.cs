@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * Name: Paul Xiong
+ * Course: PROG2070
+ * Assignment#1
+ * 
+ * Purpose: Console Application that works with a Square object
+ * 
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,13 +27,12 @@ namespace PXAssignment1
                 //instantiate Square object and declare variables
                 Square square = new Square();
                 int value;
-                bool errorCheck;
                 bool menuLoop = true;
 
                 Console.WriteLine("Please enter the side length of the square:");
-                errorCheck = int.TryParse(Console.ReadLine(), out value);
+                int.TryParse(Console.ReadLine(), out value);
 
-                if (errorCheck && value > 0)
+                if (value > 0)
                 {
                     square.ChangeSide(value);
 
@@ -38,16 +46,15 @@ namespace PXAssignment1
                         Console.WriteLine("4. Get Square Area");
                         Console.WriteLine("5. Exit");
                         
-                        //obtain user input then feed to the switch statement
+                        //obtain user input then pass to the switch statement
                         int.TryParse(Console.ReadLine(), out value);
+
                         switch (value)
                         {
-                            case 0:
-                                //invalid operation menu selection
-                                Console.WriteLine("Invalid selection.\n");
+                            default:
+                                Console.WriteLine("Invalid selection");
                                 break;
                             case 1:
-                                //get the side length of square
                                 value = square.GetSide();
                                 Console.WriteLine("Your current square side length is: " + value.ToString());
                                 break;
@@ -59,8 +66,8 @@ namespace PXAssignment1
                                 do
                                 {
                                     Console.WriteLine("Input the new value for the side of square:");
-                                    errorCheck = int.TryParse(Console.ReadLine(), out value);
-                                    if (errorCheck && value > 0)
+                                    int.TryParse(Console.ReadLine(), out value);
+                                    if (value > 0)
                                     {
                                         changeSideLoop = false;
                                         square.ChangeSide(value);
@@ -68,7 +75,7 @@ namespace PXAssignment1
                                     }
                                     else
                                     {
-                                        Console.WriteLine("Invalid input. Value provided cannot be less than 0\n");
+                                        Console.WriteLine("Invalid input. Value provided must be greater than 0\n");
                                     }
                                 } while (changeSideLoop);
                                 break;
@@ -83,17 +90,18 @@ namespace PXAssignment1
                                 Console.WriteLine("The area of the square is: " + value.ToString());
                                 break;
                             case 5:
-                                //exit the program
+                                //exits program
                                 Environment.Exit(0);
                                 break;
-                        }//end of the switch statement for menu options
+                        } //end of switch                                  
                     } while (menuLoop);//end of the loop that forces menu to stay open
                 }
                 else
                 {
                     Console.WriteLine("Invalid input. The value must be a positive integer.\n");
                 }
-            } while (programLoop);//end of loop that allows the program to proceed to menu
+            } while (programLoop);//end of loop that runs at initial start-up
         }
+        
     }
 }

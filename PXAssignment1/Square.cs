@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * Name: Paul Xiong
+ * Course: PROG2070
+ * Assignment#1
+ * 
+ * Purpose: class file that defines the Square object
+ * 
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

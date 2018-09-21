@@ -4,3 +4,10 @@ D:\VisualStudioProjects\PXAssignment1\PXAssignment1\bin\Debug\PXAssignment1.pdb
 D:\VisualStudioProjects\PXAssignment1\PXAssignment1\obj\Debug\PXAssignment1.exe
 D:\VisualStudioProjects\PXAssignment1\PXAssignment1\obj\Debug\PXAssignment1.pdb
 D:\VisualStudioProjects\PXAssignment1\PXAssignment1\obj\Debug\PXAssignment1.csprojResolveAssemblyReference.cache
+P:\SCHOOL\Year 4\Semester 2\PROG2070\PXAssignment1\PXAssignment1\bin\Debug\PXAssignment1.exe.config
+P:\SCHOOL\Year 4\Semester 2\PROG2070\PXAssignment1\PXAssignment1\bin\Debug\PXAssignment1.exe
+P:\SCHOOL\Year 4\Semester 2\PROG2070\PXAssignment1\PXAssignment1\bin\Debug\PXAssignment1.pdb
+P:\SCHOOL\Year 4\Semester 2\PROG2070\PXAssignment1\PXAssignment1\obj\Debug\PXAssignment1.csprojAssemblyReference.cache
+P:\SCHOOL\Year 4\Semester 2\PROG2070\PXAssignment1\PXAssignment1\obj\Debug\PXAssignment1.csproj.CoreCompileInputs.cache
+P:\SCHOOL\Year 4\Semester 2\PROG2070\PXAssignment1\PXAssignment1\obj\Debug\PXAssignment1.exe
+P:\SCHOOL\Year 4\Semester 2\PROG2070\PXAssignment1\PXAssignment1\obj\Debug\PXAssignment1.pdb

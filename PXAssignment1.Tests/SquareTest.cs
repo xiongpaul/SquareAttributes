@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * Name: Paul Xiong
+ * Course: PROG2070
+ * Assignment#1
+ * 
+ * Purpose: Unit Tests for methods of the Square object
+ * 
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,11 +32,11 @@ namespace PXAssignment1.Tests
         public void GetSideMethod_Given8_ResultIs8()
         {
             //Arrange
-            int value = 0;
-
+            int side = 8;
+            
             //Act
-            square.ChangeSide(8);
-            value = square.GetSide();
+            square.ChangeSide(side);
+            int value = square.GetSide();
             
             //Assert
             Assert.AreEqual(8, value);
@@ -37,10 +46,10 @@ namespace PXAssignment1.Tests
         public void ChangeSideMethod_Given42_ResultIs42()
         {
             //Arrange
-            int value = 0;
+            int side = 42;
 
             //Act
-            value = square.ChangeSide(42);
+            int value = square.ChangeSide(side);
 
             //Assert
             Assert.AreEqual(42, value);
@@ -50,26 +59,25 @@ namespace PXAssignment1.Tests
         public void GetPerimeterMethod_Given22_ResultIs88()
         {
             //Arrange
-            int perimeter = 0;
+            int side = 22;
             
             //Act
-            square.ChangeSide(22);
-            perimeter = square.GetPerimeter();
+            square.ChangeSide(side);
+            int perimeter = square.GetPerimeter();
 
             //Assert
             Assert.AreEqual(88, perimeter);
-
         }
 
         [Test]
         public void GetAreaMethod_Given12_ResultIs144()
         {
             //Arrange
-            int area = 0;
+            int side = 12;
 
             //Act
-            square.ChangeSide(12);
-            area = square.GetArea();
+            square.ChangeSide(side);
+            int area = square.GetArea();
 
             //Assert
             Assert.AreEqual(144, area);
